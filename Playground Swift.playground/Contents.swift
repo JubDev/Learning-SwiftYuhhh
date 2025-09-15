@@ -8,6 +8,7 @@ let character = "Daphne"
 print(character)
 
 // How To Create Strings
+// # Multiline Quote *Notice the triple quotes and the line spacing*
 let moviequote = """
 My Name is Jub
 I love Hockey
@@ -22,6 +23,7 @@ print(moviequote.count)
 let namelength = moviequote.count
 print(namelength)
 
+// How to
 let score = 10
 let reallyBig = 1_000_000_000
 print(score + reallyBig)
@@ -45,4 +47,21 @@ print(double2)
 
 let double4 = 0.3 + 0.5
 print(double4)
+
+let lightswitchOn = true
+
+var GameOver = false
+GameOver = !GameOver
+print(GameOver)
+GameOver.toggle()
+print(GameOver)
+
+let FirstName = "Jubile"
+let LastName = "Sani"
+let Age = 25
+let occupation = "Software Dev & UI Designer"
+let FullName = FirstName + " " + LastName
+print(FullName)
+
+let openinggreeting = "Hi everyone!, my name is \(FullName) and I'm \(Age) years old. I am a \(occupation)."
 
